@@ -2,149 +2,490 @@
 <html lang="en">
  
 <head>
-    <style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Adag.io Site</title>
+
+     <!-- Additional CSS Files -->
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
  
-        /* Styling the body */
-        * {
-            padding: 0;
-            margin: 0;
-        }
-        /*stuff testintghhhehh
-        /* Styling the background image by
-        giving its url and position */
-        .container {
-            height: 100vh;
-            width: 100%;
-            background-image: url(
-'https://img.freepik.com/free-vector/blank-blue-halftone-background_53876-99003.jpg?w=360');
-             
-            /* Image used: */
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
- 
-        /* Styling the list tags to the
-        right of the navigation bar */
-        .nav li {
-            float: right;
-            list-style: none;
-        }
- 
-        /* Styling the anchor tags of
-        the navigation bar */
-        .nav a {
-            list-style: none;
-            height: 50px;
-            line-height: 50px;
-            font-size: 1rem;
-            font-weight: 550;
-            display: block;
-            padding: 5px 35px;
-            color: black;
-            text-decoration: none;
-        }
- 
-        /* Giving position and margin
-        to the content-div */
-        .content {
-            width: 100%;
-            position: absolute;
-            top: 45%;
-        }
- 
-        /* Styling the left-col by
-        giving margin */
-        .left-col {
-            margin-left: 11%;
-        }
- 
-        /* Styling the my sound placed
-        in the left-col */
-        .left-col h1 {
-            font-size: 50px;
-            color:black;
-        }
- 
-        /* Styling the right-col */
-        .right-col {
-            float: right;
-            margin-right: 10%;
-            margin-top: -5%;
-            display: flex;
-            align-items: center;
-        }
- 
-        /* Styling the text in the right-col */
-        .right-col p {
-            font-size: 21px;
-            color: black;
-            font-weight: 650;
-            margin-right: 20px;
-        }
- 
-        /* Styling the cursor type
-        of the icon to pointer */
-        #icon {
-            cursor: pointer;
-        }
-    </style>
-</head>
- 
-<body>
-    <div class="container">
-        <ul class="nav">
-            <li><a href="contact.html">CONTACT</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="devs.html">DEVS</a></li>
-            <li><a href="adagio.html">PLAY WITH ADAG.IO</a></li>
-            <li><a href="index.html">HOME</a></li>
-        </ul>
-    </div>
- 
-    <div class="content">
-        <div class="left-col">
-            <h1>ADAG.IO</h1>
+     <link rel="stylesheet" href="css/templatemo-softy-pinko.css">
+
+    <body>
+        <div id = "preloader">
+            <div class = "jumper">
+
+            </div>
         </div>
- 
-        <div class="right-col">
-             
- 
-<p>Click Me</p>
- 
- 
-            <img src="https://cdn.discordapp.com/attachments/1026999880671035492/1035658486056484984/new_adagio_3_10-removebg-preview.png" id="icon">
+
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="#" class="logo">
+                                <img src="https://cdn.discordapp.com/attachments/1026999880671035492/1035658486056484984/new_adagio_3_10-removebg-preview.png" alt="adagio logo" style="width: 100px;"/>
+                            </a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li><a href="#welcome" class="active">Home</a></li>
+                                <li><a href="#features">About Adag.io</a></li>
+                                <li><a href="#work-process">How it Works</a></li>
+                                <li><a href="#testimonials">Developers</a></li>
+                                <li><a href="#pricing-plans">Play with Adag.io</a></li>
+                                <li><a href="#blog">Blog Entries</a></li>
+                                <li><a href="#contact-us">Contact Us</a></li>
+                            </ul>
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="welcome-area" id="welcome">
+
+            <!-- ***** Header Text Start ***** -->
+            <div class="header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                            <h1><strong>Adag.io</strong><br>Chord Recognition Neural Network </h1>
+                            <p></p>
+                            <a href="#features" class="main-button-slider">Learn More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Header Text End ***** -->
         </div>
-    </div>
- 
-    <audio id="mysound">
-        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
-    </audio>
- 
-    <script>
-        var mysound = document.getElementById("mysound");
-        var icon = document.getElementById("icon");
- 
-        // Creating a function that will change
-        // pause to play and vice-versa
-        icon.onclick = function() {
-            if (mysound.paused) {
- 
-                // If paused then play the
-                // music and change the image
-                mysound.play();
-                icon.src =
-                "https://cdn.discordapp.com/attachments/1026999880671035492/1035658486056484984/new_adagio_3_10-removebg-preview.png";
-            } else {
- 
-                // If playing then pause the
-                // music and change the image
-                mysound.pause();
-                icon.src =
-"https://cdn.discordapp.com/attachments/1026999880671035492/1035658486056484984/new_adagio_3_10-removebg-preview.png";
-            }
-        }
-    </script>
-</body>
- 
-</html>
+
+        <section class="section home-feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt="" style="width: 50px;"> </i>
+                                    </div>
+                                    <h5 class="features-title">It is very cool</h5>
+                                    <p>verrryyyyyy coooooolllll</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+    
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                    </div>
+                                    <h5 class="features-title">it is useful!!</h5>
+                                    <p>verryyyyy useful !!!</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+    
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                    </div>
+                                    <h5 class="features-title">the absolute best AI ever</h5>
+                                    <p>THE BEST! THE BEST!</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section padding-top-70 padding-bottom-0" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" class="rounded img-fluid d-block mx-auto" alt="App"style="width: 50px;">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                        <div class="left-heading">
+                            <h2 class="section-title">What is <strong> Adag.io</strong>?</h2>
+                        </div>
+                        <div class="left-text">
+                            <p>Adag.io is a convolusional neural network designed to input music and output the corresponding chords. It will be designed with Python and TensorFlow.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hr"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+    
+        <!-- ***** Features Big Item Start ***** -->
+        <section class="section padding-bottom-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                        <div class="left-heading">
+                            <h2 class="section-title">We can help you find chords!!!</h2>
+                        </div>
+                        <div class="left-text">
+                            <p>blalblajblabjabj</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" class="rounded img-fluid d-block mx-auto" alt="App"style="width: 50px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+    
+        <!-- ***** Home Parallax Start ***** -->
+        <section class="mini" id="work-process">
+            <div class="mini-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-3 col-lg-6">
+                            <div class="info">
+                                <h1>How We Developed</h1>
+                                <p>We used TensorFlow and Python.!!!</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- ***** Mini Box Start ***** -->
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <strong>Get Idea for Project</strong>
+                                <span>Based off the struggles of new musicians</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <strong>Get Basic Dataset</strong>
+                                <span>Files of piano chords</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <strong>Create the system</strong>
+                                <span>Make sure the base logic works</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <strong>Make a bigger dataset</strong>
+                                <span>To teach the AI.</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <strong>Teach the AI</strong>
+                                <span>lalalalala</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="images/work-process-item-01.png" alt=""style="width: 50px;"></i>
+                                <strong>Test with new samples</strong>
+                                <span>Record the accuracy and finetune</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ***** Mini Box End ***** -->
+                </div>
+            </div>
+        </section>
+        <!-- ***** Home Parallax End ***** -->
+    
+        <!-- ***** Testimonials Start ***** -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Developers</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Team of two developers, working on an open source project for a course!!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Section Title End ***** -->
+    
+                <div class="row">
+                    <!-- ***** Testimonials Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="team-item">
+                            <div class="team-content">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <p></p>
+                                <div class="user-image">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;">
+                                </div>
+                                <div class="team-info">
+                                    <h3 class="user-name">Queenie Sun</h3>
+                                    <span>Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ***** Testimonials Item End ***** -->
+                    
+                    
+                    
+                    <!-- ***** Testimonials Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="team-item">
+                            <div class="team-content">
+                                <i><img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;"></i>
+                                <p></p>
+                                <div class="user-image">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/282/282151.png" alt=""style="width: 50px;">
+                                </div>
+                                <div class="team-info">
+                                    <h3 class="user-name">Flynn McCallum</h3>
+                                    <span>Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ***** Testimonials Item End ***** -->
+                </div>
+            </div>
+        </section>
+        <!-- ***** Testimonials End ***** -->
+    
+        <!-- ***** Pricing Plans Start ***** -->
+        <section class="section colored" id="pricing-plans">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Play with Adagio!</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Nothing here yet...</p>
+                        </div>
+                    </div>
+                </div>    
+                
+            </div>
+        </section>
+    
+        <!-- ***** Counter Parallax Start ***** -->
+        <section class="counter">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="count-item decoration-bottom">
+                                <strong>384</strong>
+                                <span>Chord Files Taught</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="count-item decoration-top">
+                                <strong>100</strong>
+                                <span>Percent Accuracy</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="count-item decoration-bottom">
+                                <strong>2</strong>
+                                <span>Users</span>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- ***** Counter Parallax End ***** -->   
+    
+        <!-- ***** Blog Start ***** -->
+        <section class="section" id="blog">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Blog Entries</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Learn more about our process and fun things you can do with Adag.io!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Section Title End ***** -->
+    
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="images/blog-item-02.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">Phasellus convallis augue</a>
+                                </h3>
+                                <div class="text">
+                                    Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
+                                </div>
+                                <a href="#" class="main-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="images/blog-item-03.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">Nam gravida purus non</a>
+                                </h3>
+                                <div class="text">
+                                    Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
+                                </div>
+                                <a href="#" class="main-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Blog End ***** -->
+    
+        <!-- ***** Contact Us Start ***** -->
+        <section class="section colored" id="contact-us">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Contact Us</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Questions, comments, or anything else.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Section Title End ***** -->
+    
+                <div class="row">
+    
+                    <!-- ***** Contact Form Start ***** -->
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="" method="get">
+                              <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                  <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                  <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" required="">
+                                  </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                  <fieldset>
+                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                                  </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                  <fieldset>
+                                    <button type="submit" id="form-submit" class="main-button">Send Message</button>
+                                  </fieldset>
+                                </div>
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Form End ***** -->
+                </div>
+            </div>
+        </section>
+        <!-- ***** Contact Us End ***** -->
+        
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="copyright">Design: TemplateMo</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- jQuery -->
+        <script src="js/jquery-2.1.0.min.js"></script>
+    
+        <!-- Bootstrap -->
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    
+        <!-- Plugins -->
+        <script src="js/scrollreveal.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/imgfix.min.js"></script> 
+        
+        <!-- Global Init -->
+        <script src="js/custom.js"></script>
+    
+      </body>
+    </html>
