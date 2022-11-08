@@ -113,12 +113,12 @@ body {
 }
 
 ::selection {
-  background: #589eff;
+  background: #7CD5E0;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #589eff;
+  background: #7CD5E0;
   color: #fff;
 }
 
@@ -314,7 +314,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #589eff;
+  background-color: #7CD5E0;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -325,14 +325,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #6c44ed;
+  background-color: #58C8DF;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #58C8DF;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -343,7 +343,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #589eff;
+  background-color: #7CD5E0;
 }
 
 button.main-button {
@@ -353,7 +353,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #58C8DF;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -364,7 +364,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #589eff;
+  background-color: #7CD5E0;
 }
 
 
@@ -448,7 +448,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #589eff;
+  color: #7CD5E0;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -560,7 +560,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #589eff;
+  color: #7CD5E0;
 }
 
 @media (max-width: 1200px) {
@@ -644,7 +644,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://64.media.tumblr.com/b166312ef74899d98e9f252f2c65385e/e08a940eeeb8802d-37/s540x810/cb8c3784e0abc767810a1e6944eb1e900fe41767.gifv);
+  background-image: url(https://im.ezgif.com/tmp/ezgif-1-a797a5e51d.gif);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -769,7 +769,7 @@ features
 }
 
 .features-small-item:hover .icon {
-  background-color: #589eff;
+  background-color: #7CD5E0;
 }
 
 .features-small-item .icon {
@@ -783,7 +783,7 @@ features
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #58C8DF;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -857,7 +857,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(https://64.media.tumblr.com/b166312ef74899d98e9f252f2c65385e/e08a940eeeb8802d-37/s540x810/cb8c3784e0abc767810a1e6944eb1e900fe41767.gifv);
+  background-image: url(https://im.ezgif.com/tmp/ezgif-1-a797a5e51d.gif);
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -980,7 +980,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(https://64.media.tumblr.com/b166312ef74899d98e9f252f2c65385e/e08a940eeeb8802d-37/s540x810/cb8c3784e0abc767810a1e6944eb1e900fe41767.gifv);
+  background-image: url(https://im.ezgif.com/tmp/ezgif-1-a797a5e51d.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1128,7 +1128,7 @@ team
   margin-left: 25px;
   margin-top: 25px;
   font-size: 30px;
-  color: #4E47DE;
+  color: #58C8DF;
   text-align: center;
 }
 
@@ -1175,7 +1175,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #589eff;
+  color: #7CD5E0;
   letter-spacing: 0.25px;
 }
 
@@ -1214,7 +1214,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #589eff;
+  background-color: #7CD5E0;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1257,7 +1257,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #58C8DF;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1351,7 +1351,7 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #589eff;
+  color: #7CD5E0;
 }
 
 .blog-post-thumb .text {
@@ -1442,7 +1442,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #5475e2 0%, #5a2ee9 91%);
+  background-image: linear-gradient(127deg, #58C8DF 0%, #D8F2E6 91%);
   padding-top: 30px;
 }
 
@@ -1458,7 +1458,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #5b63d9;
+  color: #7CD5E0;
    text-align: center;
   background-color: #fff;
   width: 36px;
@@ -1474,7 +1474,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #589eff;
+  background-color: #7CD5E0;
   color: #fff;
 }
 
